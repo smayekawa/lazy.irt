@@ -6,7 +6,7 @@ Date: 2024-01-25
 Author: Shin-ichi Mayekawa <mayekawa@nifty.com>
 Maintainer: Shin-ichi Mayekawa <mayekawa@nifty.com>
 Description: This package contains some psychometric (IRT) functions.
-Imports:
+Depends:
     lazy.tools,
     lazy.mat,
     lazy.accel,
