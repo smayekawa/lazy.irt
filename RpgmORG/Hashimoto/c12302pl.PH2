@@ -1,0 +1,1057 @@
+1
+
+
+                                 BILOG-MG V3.0
+                              REV 19990329.1300
+
+      BILOG-MG ITEM MAINTENANCE PROGRAM: LOGISTIC ITEM RESPONSE MODEL
+
+
+                   ***  BILOG-MG ITEM MAINTENANCE PROGRAM  ***
+
+
+                              *** PHASE 2  ***
+
+
+ comment                                                                         
+                                                                                 
+
+
+ >CALIB  ACCel = 0.5,                                                            
+
+
+         NORMAL,                                                                 
+
+
+         REFerence = 0,                                                          
+
+
+         IDIST     = 0,                                                          
+
+
+         SPRIOR,                                                                 
+
+
+         TPRIOR,                                                                 
+
+
+         GPRIOR,                                                                 
+
+
+         NOFLOAT;                                                                
+
+
+ CALIBRATION PARAMETERS
+ ======================
+
+ MAXIMUM NUMBER OF EM CYCLES:                 20
+
+ MAXIMUM NUMBER OF NEWTON CYCLES:              2
+ CONVERGENCE CRITERION:                       0.0100
+ ACCELERATION CONSTANT:                       0.5000
+
+ LATENT DISTRIBUTION:                       NORMAL PRIOR FOR EACH GROUP
+                                            GROUP MEANS AND SDS
+                                            ESTIMATED CONCURRENTLY
+                                            WITH ITEM PARAMETERS
+                                            REFERENCE GROUP:   0
+ PLOT EMPIRICAL VS. FITTED ICC'S:           NO
+ DATA HANDLING:                             DATA ON SCRATCH FILE
+ CONSTRAINT DISTRIBUTION ON SLOPES:         YES
+ CONSTRAINT DISTRIBUTION ON THRESHOLDS:     YES
+ SOURCE OF ITEM CONSTRAINT DISTIBUTION
+       MEANS AND STANDARD DEVIATIONS:       PROGRAM DEFAULTS
+1
+
+ --------------------------------------------------------------------------------
+
+
+                        ******************************
+
+                           CALIBRATION OF MAINTEST    
+
+                                   CIVICS  
+
+                        ******************************
+
+
+
+
+ ***** GROUP    1 : ITEM:  34 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  35 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  36 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  37 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  38 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  39 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  40 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  41 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  42 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  43 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  44 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  45 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  46 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  47 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  48 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  49 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  50 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  51 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  52 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  53 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  54 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  55 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  56 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  57 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  58 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  59 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  60 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  61 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  62 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  63 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    1 : ITEM:  64 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   1 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   2 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   3 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   4 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   5 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   6 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   7 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   8 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:   9 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  10 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  11 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  12 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  13 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  14 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  15 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  16 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  17 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  18 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  19 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  20 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  21 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  22 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  23 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  24 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  25 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  26 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  27 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  28 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  29 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  30 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  31 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  32 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    2 : ITEM:  33 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:   5 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:   6 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:   7 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:   8 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  11 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  13 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  15 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  16 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  17 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  21 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  22 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  23 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  25 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  26 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  27 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  29 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  31 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  34 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  35 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  36 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  37 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  38 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  39 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  40 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  44 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  47 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  53 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  54 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  58 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  59 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ ***** GROUP    3 : ITEM:  61 OMITTED FROM CALIBRATION.
+ PROPORTION OF CORRECT RESPONSE = 0.000
+
+ METHOD OF SOLUTION:
+
+ EM CYCLES (MAXIMUM OF    20)
+ FOLLOWED BY NEWTON-RAPHSON STEPS (MAXIMUM OF   2)
+
+
+ QUADRATURE POINTS AND PRIOR WEIGHTS: GROUP   1    C2      
+
+
+                1           2           3           4           5
+ POINT    -0.4000E+01 -0.3724E+01 -0.3448E+01 -0.3172E+01 -0.2897E+01
+ WEIGHT    0.3692E-04  0.1071E-03  0.2881E-03  0.7181E-03  0.1659E-02
+
+
+                6           7           8           9          10
+ POINT    -0.2621E+01 -0.2345E+01 -0.2069E+01 -0.1793E+01 -0.1517E+01
+ WEIGHT    0.3550E-02  0.7042E-02  0.1294E-01  0.2205E-01  0.3481E-01
+
+
+               11          12          13          14          15
+ POINT    -0.1241E+01 -0.9655E+00 -0.6897E+00 -0.4138E+00 -0.1379E+00
+ WEIGHT    0.5093E-01  0.6905E-01  0.8676E-01  0.1010E+00  0.1090E+00
+
+
+               16          17          18          19          20
+ POINT     0.1379E+00  0.4138E+00  0.6897E+00  0.9655E+00  0.1241E+01
+ WEIGHT    0.1090E+00  0.1010E+00  0.8676E-01  0.6905E-01  0.5093E-01
+
+
+               21          22          23          24          25
+ POINT     0.1517E+01  0.1793E+01  0.2069E+01  0.2345E+01  0.2621E+01
+ WEIGHT    0.3481E-01  0.2205E-01  0.1294E-01  0.7042E-02  0.3550E-02
+
+
+               26          27          28          29          30
+ POINT     0.2897E+01  0.3172E+01  0.3448E+01  0.3724E+01  0.4000E+01
+ WEIGHT    0.1659E-02  0.7181E-03  0.2881E-03  0.1071E-03  0.3692E-04
+
+
+ QUADRATURE POINTS AND PRIOR WEIGHTS: GROUP   2    C3      
+
+
+                1           2           3           4           5
+ POINT    -0.4000E+01 -0.3724E+01 -0.3448E+01 -0.3172E+01 -0.2897E+01
+ WEIGHT    0.3692E-04  0.1071E-03  0.2881E-03  0.7181E-03  0.1659E-02
+
+
+                6           7           8           9          10
+ POINT    -0.2621E+01 -0.2345E+01 -0.2069E+01 -0.1793E+01 -0.1517E+01
+ WEIGHT    0.3550E-02  0.7042E-02  0.1294E-01  0.2205E-01  0.3481E-01
+
+
+               11          12          13          14          15
+ POINT    -0.1241E+01 -0.9655E+00 -0.6897E+00 -0.4138E+00 -0.1379E+00
+ WEIGHT    0.5093E-01  0.6905E-01  0.8676E-01  0.1010E+00  0.1090E+00
+
+
+               16          17          18          19          20
+ POINT     0.1379E+00  0.4138E+00  0.6897E+00  0.9655E+00  0.1241E+01
+ WEIGHT    0.1090E+00  0.1010E+00  0.8676E-01  0.6905E-01  0.5093E-01
+
+
+               21          22          23          24          25
+ POINT     0.1517E+01  0.1793E+01  0.2069E+01  0.2345E+01  0.2621E+01
+ WEIGHT    0.3481E-01  0.2205E-01  0.1294E-01  0.7042E-02  0.3550E-02
+
+
+               26          27          28          29          30
+ POINT     0.2897E+01  0.3172E+01  0.3448E+01  0.3724E+01  0.4000E+01
+ WEIGHT    0.1659E-02  0.7181E-03  0.2881E-03  0.1071E-03  0.3692E-04
+
+
+ QUADRATURE POINTS AND PRIOR WEIGHTS: GROUP   3    C4      
+
+
+                1           2           3           4           5
+ POINT    -0.4000E+01 -0.3724E+01 -0.3448E+01 -0.3172E+01 -0.2897E+01
+ WEIGHT    0.3692E-04  0.1071E-03  0.2881E-03  0.7181E-03  0.1659E-02
+
+
+                6           7           8           9          10
+ POINT    -0.2621E+01 -0.2345E+01 -0.2069E+01 -0.1793E+01 -0.1517E+01
+ WEIGHT    0.3550E-02  0.7042E-02  0.1294E-01  0.2205E-01  0.3481E-01
+
+
+               11          12          13          14          15
+ POINT    -0.1241E+01 -0.9655E+00 -0.6897E+00 -0.4138E+00 -0.1379E+00
+ WEIGHT    0.5093E-01  0.6905E-01  0.8676E-01  0.1010E+00  0.1090E+00
+
+
+               16          17          18          19          20
+ POINT     0.1379E+00  0.4138E+00  0.6897E+00  0.9655E+00  0.1241E+01
+ WEIGHT    0.1090E+00  0.1010E+00  0.8676E-01  0.6905E-01  0.5093E-01
+
+
+               21          22          23          24          25
+ POINT     0.1517E+01  0.1793E+01  0.2069E+01  0.2345E+01  0.2621E+01
+ WEIGHT    0.3481E-01  0.2205E-01  0.1294E-01  0.7042E-02  0.3550E-02
+
+
+               26          27          28          29          30
+ POINT     0.2897E+01  0.3172E+01  0.3448E+01  0.3724E+01  0.4000E+01
+ WEIGHT    0.1659E-02  0.7181E-03  0.2881E-03  0.1071E-03  0.3692E-04
+
+
+ QUADRATURE POINTS AND PRIOR WEIGHTS: GROUP   4    C5      
+
+
+                1           2           3           4           5
+ POINT    -0.4000E+01 -0.3724E+01 -0.3448E+01 -0.3172E+01 -0.2897E+01
+ WEIGHT    0.3692E-04  0.1071E-03  0.2881E-03  0.7181E-03  0.1659E-02
+
+
+                6           7           8           9          10
+ POINT    -0.2621E+01 -0.2345E+01 -0.2069E+01 -0.1793E+01 -0.1517E+01
+ WEIGHT    0.3550E-02  0.7042E-02  0.1294E-01  0.2205E-01  0.3481E-01
+
+
+               11          12          13          14          15
+ POINT    -0.1241E+01 -0.9655E+00 -0.6897E+00 -0.4138E+00 -0.1379E+00
+ WEIGHT    0.5093E-01  0.6905E-01  0.8676E-01  0.1010E+00  0.1090E+00
+
+
+               16          17          18          19          20
+ POINT     0.1379E+00  0.4138E+00  0.6897E+00  0.9655E+00  0.1241E+01
+ WEIGHT    0.1090E+00  0.1010E+00  0.8676E-01  0.6905E-01  0.5093E-01
+
+
+               21          22          23          24          25
+ POINT     0.1517E+01  0.1793E+01  0.2069E+01  0.2345E+01  0.2621E+01
+ WEIGHT    0.3481E-01  0.2205E-01  0.1294E-01  0.7042E-02  0.3550E-02
+
+
+               26          27          28          29          30
+ POINT     0.2897E+01  0.3172E+01  0.3448E+01  0.3724E+01  0.4000E+01
+ WEIGHT    0.1659E-02  0.7181E-03  0.2881E-03  0.1071E-03  0.3692E-04
+
+
+
+ CONSTRAINT DISTRIBUTIONS ON ITEM PARAMETERS
+  (THRESHOLDS, NORMAL; SLOPES, LOG-NORMAL; GUESSING, BETA)
+
+                 THRESHOLDS          SLOPES          ASYMPTOTES    
+ ITEM          MU     SIGMA      MU     SIGMA     ALPHA       BETA
+ ----------------------------------------------------------------------
+ E01         0.000    2.000    1.000    1.649
+ E02         0.000    2.000    1.000    1.649
+ E03         0.000    2.000    1.000    1.649
+ E04         0.000    2.000    1.000    1.649
+ E05         0.000    2.000    1.000    1.649
+ E06         0.000    2.000    1.000    1.649
+ E07         0.000    2.000    1.000    1.649
+ E08         0.000    2.000    1.000    1.649
+ E09         0.000    2.000    1.000    1.649
+ E10         0.000    2.000    1.000    1.649
+ E11         0.000    2.000    1.000    1.649
+ E12         0.000    2.000    1.000    1.649
+ E13         0.000    2.000    1.000    1.649
+ E14         0.000    2.000    1.000    1.649
+ E15         0.000    2.000    1.000    1.649
+ E16         0.000    2.000    1.000    1.649
+ E17         0.000    2.000    1.000    1.649
+ E18         0.000    2.000    1.000    1.649
+ E19         0.000    2.000    1.000    1.649
+ E20         0.000    2.000    1.000    1.649
+ E21         0.000    2.000    1.000    1.649
+ E22         0.000    2.000    1.000    1.649
+ E23         0.000    2.000    1.000    1.649
+ E24         0.000    2.000    1.000    1.649
+ E25         0.000    2.000    1.000    1.649
+ E26         0.000    2.000    1.000    1.649
+ E27         0.000    2.000    1.000    1.649
+ E28         0.000    2.000    1.000    1.649
+ E29         0.000    2.000    1.000    1.649
+ E30         0.000    2.000    1.000    1.649
+ E31         0.000    2.000    1.000    1.649
+ E32         0.000    2.000    1.000    1.649
+ E33         0.000    2.000    1.000    1.649
+ P01         0.000    2.000    1.000    1.649
+ P02         0.000    2.000    1.000    1.649
+ P03         0.000    2.000    1.000    1.649
+ P04         0.000    2.000    1.000    1.649
+ P05         0.000    2.000    1.000    1.649
+ P06         0.000    2.000    1.000    1.649
+ P07         0.000    2.000    1.000    1.649
+ P08         0.000    2.000    1.000    1.649
+ P09         0.000    2.000    1.000    1.649
+ P10         0.000    2.000    1.000    1.649
+ P11         0.000    2.000    1.000    1.649
+ P12         0.000    2.000    1.000    1.649
+ P13         0.000    2.000    1.000    1.649
+ P14         0.000    2.000    1.000    1.649
+ P15         0.000    2.000    1.000    1.649
+ P16         0.000    2.000    1.000    1.649
+ P17         0.000    2.000    1.000    1.649
+ P18         0.000    2.000    1.000    1.649
+ P19         0.000    2.000    1.000    1.649
+ P20         0.000    2.000    1.000    1.649
+ P21         0.000    2.000    1.000    1.649
+ P22         0.000    2.000    1.000    1.649
+ P23         0.000    2.000    1.000    1.649
+ P24         0.000    2.000    1.000    1.649
+ P25         0.000    2.000    1.000    1.649
+ P26         0.000    2.000    1.000    1.649
+ P27         0.000    2.000    1.000    1.649
+ P28         0.000    2.000    1.000    1.649
+ P29         0.000    2.000    1.000    1.649
+ P30         0.000    2.000    1.000    1.649
+ P31         0.000    2.000    1.000    1.649
+ ----------------------------------------------------------------------
+
+
+
+
+ [E-M CYCLES]
+
+
+
+ -2 LOG LIKELIHOOD =    3746917.933
+
+
+ CYCLE      1;   LARGEST CHANGE=   1.26879
+
+ -2 LOG LIKELIHOOD =    3732235.405
+
+
+ CYCLE      2;   LARGEST CHANGE=   0.14082
+
+ -2 LOG LIKELIHOOD =    3729641.108
+
+
+ CYCLE      3;   LARGEST CHANGE=   0.05585
+
+ -2 LOG LIKELIHOOD =    3728790.936
+
+
+ CYCLE      4;   LARGEST CHANGE=   0.05667
+
+ -2 LOG LIKELIHOOD =    3728289.253
+
+
+ CYCLE      5;   LARGEST CHANGE=   0.03071
+
+ -2 LOG LIKELIHOOD =    3728064.177
+
+
+ CYCLE      6;   LARGEST CHANGE=   0.02272
+
+ -2 LOG LIKELIHOOD =    3727945.174
+
+
+ CYCLE      7;   LARGEST CHANGE=   0.03275
+
+ -2 LOG LIKELIHOOD =    3727874.766
+
+
+ CYCLE      8;   LARGEST CHANGE=   0.00915
+
+
+
+
+ [NEWTON CYCLES]
+
+
+
+
+ -2 LOG LIKELIHOOD:      3727825.8863
+
+
+ CYCLE     9;   LARGEST CHANGE=   0.00617
+
+
+ INTERVAL COUNTS FOR COMPUTATION OF ITEM CHI-SQUARES
+  ----------------------------------------------------------------------------
+       3204.  5757. 10876. 15856. 18123. 17495. 15291. 11604.  9885.
+  ----------------------------------------------------------------------------
+
+ INTERVAL AVERAGE THETAS
+  ----------------------------------------------------------------------------
+      -2.198 -1.592 -1.139 -0.689 -0.233  0.225  0.683  1.140  1.737
+  ----------------------------------------------------------------------------
+1
+
+ SUBTEST CIVICS  ;  ITEM PARAMETERS AFTER CYCLE   9
+
+ ITEM      INTERCEPT    SLOPE    THRESHOLD   LOADING   ASYMPTOTE    CHISQ     DF
+              S.E.       S.E.       S.E.       S.E.       S.E.      (PROB)
+ -------------------------------------------------------------------------------
+ E01      |   0.238  |   0.432  |  -0.550  |   0.397  |   0.000  |   409.2   9.0
+          |   0.005* |   0.007* |   0.016* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E02      |   1.614  |   0.730  |  -2.210  |   0.590  |   0.000  |    91.2   9.0
+          |   0.012* |   0.013* |   0.032* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E03      |   0.413  |   0.707  |  -0.584  |   0.577  |   0.000  |   664.6   9.0
+          |   0.006* |   0.008* |   0.010* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E04      |   2.196  |   0.807  |  -2.720  |   0.628  |   0.000  |   104.8   9.0
+          |   0.018* |   0.016* |   0.043* |   0.012* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E05      |   0.639  |   0.695  |  -0.919  |   0.571  |   0.000  |   168.3   9.0
+          |   0.012* |   0.015* |   0.019* |   0.012* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E06      |  -0.042  |   0.360  |   0.117  |   0.339  |   0.000  |    40.6   9.0
+          |   0.009* |   0.010* |   0.024* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E07      |  -0.186  |   0.523  |   0.356  |   0.463  |   0.000  |   152.6   9.0
+          |   0.009* |   0.012* |   0.019* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E08      |   1.682  |   0.814  |  -2.065  |   0.631  |   0.000  |    74.4   9.0
+          |   0.022* |   0.021* |   0.039* |   0.016* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E09      |   0.921  |   0.626  |  -1.471  |   0.531  |   0.000  |   177.1   9.0
+          |   0.007* |   0.009* |   0.021* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E10      |   0.639  |   0.773  |  -0.826  |   0.612  |   0.000  |   263.1   9.0
+          |   0.006* |   0.009* |   0.011* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E11      |   1.147  |   0.916  |  -1.252  |   0.675  |   0.000  |   164.3   9.0
+          |   0.018* |   0.020* |   0.019* |   0.015* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E12      |   0.818  |   0.993  |  -0.824  |   0.705  |   0.000  |   716.0   9.0
+          |   0.008* |   0.011* |   0.009* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E13      |   0.324  |   0.469  |  -0.690  |   0.425  |   0.000  |   302.7   9.0
+          |   0.010* |   0.011* |   0.023* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E14      |  -0.274  |   0.256  |   1.070  |   0.248  |   0.000  |   376.7   9.0
+          |   0.005* |   0.006* |   0.025* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E15      |   0.524  |   0.888  |  -0.590  |   0.664  |   0.000  |   309.1   9.0
+          |   0.012* |   0.017* |   0.013* |   0.013* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E16      |   1.822  |   1.004  |  -1.815  |   0.708  |   0.000  |    63.2   9.0
+          |   0.026* |   0.024* |   0.028* |   0.017* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E17      |   0.622  |   0.650  |  -0.956  |   0.545  |   0.000  |    58.9   9.0
+          |   0.011* |   0.014* |   0.021* |   0.012* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E18      |  -0.236  |   0.207  |   1.136  |   0.203  |   0.000  |   188.3   9.0
+          |   0.005* |   0.006* |   0.032* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E19      |   1.774  |   0.842  |  -2.107  |   0.644  |   0.000  |   255.9   9.0
+          |   0.013* |   0.013* |   0.027* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E20      |   0.687  |   0.756  |  -0.908  |   0.603  |   0.000  |   309.4   9.0
+          |   0.007* |   0.009* |   0.012* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E21      |   1.175  |   0.958  |  -1.227  |   0.692  |   0.000  |    92.8   9.0
+          |   0.018* |   0.021* |   0.018* |   0.015* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E22      |   0.000  |   0.371  |   0.000  |   0.347  |   0.000  |   127.1   9.0
+          |   0.009* |   0.010* |   0.024* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E23      |   1.213  |   0.541  |  -2.241  |   0.476  |   0.000  |    58.8   9.0
+          |   0.015* |   0.015* |   0.054* |   0.013* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E24      |   1.183  |   0.542  |  -2.182  |   0.477  |   0.000  |   128.7   9.0
+          |   0.008* |   0.009* |   0.036* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E25      |  -0.389  |   0.606  |   0.642  |   0.518  |   0.000  |   597.3   9.0
+          |   0.010* |   0.012* |   0.019* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E26      |   0.294  |   0.299  |  -0.984  |   0.287  |   0.000  |   106.3   9.0
+          |   0.009* |   0.010* |   0.043* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E27      |   1.509  |   0.689  |  -2.190  |   0.567  |   0.000  |    52.6   9.0
+          |   0.019* |   0.018* |   0.046* |   0.015* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E28      |   0.279  |   0.460  |  -0.606  |   0.418  |   0.000  |   311.0   9.0
+          |   0.005* |   0.007* |   0.016* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E29      |   3.462  |   1.288  |  -2.689  |   0.790  |   0.000  |    24.4   7.0
+          |   0.075* |   0.048* |   0.056* |   0.029* |   0.000* | (0.0010)
+          |          |          |          |          |          |
+ E30      |   1.928  |   0.822  |  -2.346  |   0.635  |   0.000  |   163.5   9.0
+          |   0.015* |   0.014* |   0.032* |   0.011* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E31      |   1.943  |   0.920  |  -2.112  |   0.677  |   0.000  |    52.5   9.0
+          |   0.027* |   0.024* |   0.038* |   0.018* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E32      |   0.529  |   0.721  |  -0.734  |   0.585  |   0.000  |   643.6   9.0
+          |   0.006* |   0.009* |   0.011* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ E33      |   0.641  |   0.410  |  -1.564  |   0.379  |   0.000  |   212.5   9.0
+          |   0.006* |   0.007* |   0.031* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P01      |  -0.441  |   0.098  |   4.505  |   0.097  |   0.000  |    54.6   9.0
+          |   0.007* |   0.008* |   0.377* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P02      |  -0.042  |   0.530  |   0.079  |   0.468  |   0.000  |   275.2   9.0
+          |   0.007* |   0.009* |   0.013* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P03      |   0.584  |   0.502  |  -1.163  |   0.449  |   0.000  |   164.6   9.0
+          |   0.008* |   0.009* |   0.017* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P04      |  -0.197  |   0.178  |   1.107  |   0.176  |   0.000  |   759.0   9.0
+          |   0.006* |   0.007* |   0.069* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P05      |  -0.217  |   0.459  |   0.472  |   0.417  |   0.000  |   275.1   9.0
+          |   0.007* |   0.009* |   0.020* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P06      |  -0.334  |   0.226  |   1.476  |   0.221  |   0.000  |   102.2   9.0
+          |   0.006* |   0.008* |   0.068* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P07      |  -0.108  |   0.129  |   0.837  |   0.128  |   0.000  |   112.3   9.0
+          |   0.006* |   0.007* |   0.081* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P08      |  -0.899  |   0.017  |  53.938  |   0.017  |   0.000  |   110.9   9.0
+          |   0.005* |   0.003* |  10.086* |   0.003* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P09      |   0.103  |   0.355  |  -0.289  |   0.335  |   0.000  |   178.8   9.0
+          |   0.004* |   0.005* |   0.012* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P10      |   0.018  |   0.359  |  -0.049  |   0.338  |   0.000  |   182.3   9.0
+          |   0.004* |   0.005* |   0.012* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P11      |   0.549  |   0.643  |  -0.854  |   0.541  |   0.000  |   296.9   9.0
+          |   0.008* |   0.010* |   0.011* |   0.009* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P12      |   0.437  |   0.260  |  -1.679  |   0.252  |   0.000  |   412.1   9.0
+          |   0.004* |   0.005* |   0.034* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P13      |   0.360  |   0.548  |  -0.656  |   0.481  |   0.000  |   361.5   9.0
+          |   0.005* |   0.006* |   0.010* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P14      |   0.049  |   0.475  |  -0.104  |   0.429  |   0.000  |   295.1   9.0
+          |   0.007* |   0.009* |   0.013* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P15      |  -0.272  |   0.200  |   1.362  |   0.196  |   0.000  |   102.0   9.0
+          |   0.004* |   0.005* |   0.037* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P16      |   0.663  |   0.579  |  -1.144  |   0.501  |   0.000  |   403.6   9.0
+          |   0.005* |   0.007* |   0.012* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P17      |   0.245  |   0.360  |  -0.680  |   0.339  |   0.000  |   134.9   9.0
+          |   0.004* |   0.005* |   0.014* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P18      |  -0.477  |   0.624  |   0.765  |   0.529  |   0.000  |  1547.1   9.0
+          |   0.005* |   0.006* |   0.010* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P19      |  -0.307  |   0.287  |   1.068  |   0.276  |   0.000  |   195.7   9.0
+          |   0.004* |   0.005* |   0.022* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P20      |  -0.366  |   0.452  |   0.811  |   0.412  |   0.000  |   251.2   9.0
+          |   0.007* |   0.009* |   0.025* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P21      |   0.018  |   0.657  |  -0.028  |   0.549  |   0.000  |   438.0   9.0
+          |   0.007* |   0.010* |   0.011* |   0.009* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P22      |   0.175  |   0.188  |  -0.933  |   0.184  |   0.000  |   157.9   9.0
+          |   0.004* |   0.005* |   0.031* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P23      |   0.021  |   0.486  |  -0.043  |   0.437  |   0.000  |   754.6   9.0
+          |   0.004* |   0.006* |   0.009* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P24      |   1.193  |   0.645  |  -1.849  |   0.542  |   0.000  |   201.7   9.0
+          |   0.008* |   0.008* |   0.019* |   0.007* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P25      |  -0.253  |   0.427  |   0.593  |   0.393  |   0.000  |   245.6   9.0
+          |   0.007* |   0.009* |   0.023* |   0.008* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P26      |   1.148  |   0.674  |  -1.703  |   0.559  |   0.000  |   204.1   8.0
+          |   0.012* |   0.012* |   0.020* |   0.010* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P27      |   0.688  |   0.534  |  -1.287  |   0.471  |   0.000  |   284.8   9.0
+          |   0.005* |   0.007* |   0.015* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P28      |   1.469  |   0.922  |  -1.593  |   0.678  |   0.000  |   472.3   8.0
+          |   0.015* |   0.015* |   0.015* |   0.011* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P29      |   0.307  |   0.304  |  -1.007  |   0.291  |   0.000  |   145.7   9.0
+          |   0.004* |   0.005* |   0.020* |   0.005* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P30      |   1.168  |   0.582  |  -2.008  |   0.503  |   0.000  |   434.4   9.0
+          |   0.007* |   0.007* |   0.022* |   0.006* |   0.000* | (0.0000)
+          |          |          |          |          |          |
+ P31      |   1.252  |   0.652  |  -1.919  |   0.546  |   0.000  |   330.2   9.0
+          |   0.008* |   0.008* |   0.019* |   0.007* |   0.000* | (0.0000)
+ -------------------------------------------------------------------------------
+                                                            * STANDARD ERROR
+
+     LARGEST CHANGE =    0.006169                        17346.0 572.0
+                                                          (0.0000)
+ -------------------------------------------------------------------------------
+
+
+ PARAMETER       MEAN  STN DEV
+ -----------------------------------
+ SLOPE          0.554    0.257
+ LOG(SLOPE)    -0.748    0.676
+ THRESHOLD      0.187    6.944
+
+
+ GROUP:  1    C2        QUADRATURE POINTS, POSTERIOR WEIGHTS, MEAN AND S.D.:
+
+
+                   1           2           3           4           5
+ POINT       -0.3686E+01 -0.3433E+01 -0.3179E+01 -0.2926E+01 -0.2672E+01
+ POSTERIOR    0.2320E-03  0.3308E-03  0.5151E-03  0.9765E-03  0.2016E-02
+
+
+                   6           7           8           9          10
+ POINT       -0.2419E+01 -0.2166E+01 -0.1912E+01 -0.1659E+01 -0.1405E+01
+ POSTERIOR    0.3984E-02  0.7441E-02  0.1345E-01  0.2343E-01  0.3830E-01
+
+
+                  11          12          13          14          15
+ POINT       -0.1152E+01 -0.8984E+00 -0.6450E+00 -0.3916E+00 -0.1382E+00
+ POSTERIOR    0.5670E-01  0.7422E-01  0.8654E-01  0.9291E-01  0.9471E-01
+
+
+                  16          17          18          19          20
+ POINT        0.1153E+00  0.3687E+00  0.6221E+00  0.8755E+00  0.1129E+01
+ POSTERIOR    0.9285E-01  0.8750E-01  0.7885E-01  0.6759E-01  0.5486E-01
+
+
+                  21          22          23          24          25
+ POINT        0.1382E+01  0.1636E+01  0.1889E+01  0.2143E+01  0.2396E+01
+ POSTERIOR    0.4203E-01  0.3032E-01  0.2057E-01  0.1311E-01  0.7855E-02
+
+
+                  26          27          28          29          30
+ POINT        0.2649E+01  0.2903E+01  0.3156E+01  0.3410E+01  0.3663E+01
+ POSTERIOR    0.4422E-02  0.2339E-02  0.1162E-02  0.5419E-03  0.2380E-03
+
+ MEAN         0.03821
+ S.E.         0.00799
+
+ S.D.         1.01991
+ S.E.         0.00633
+
+
+ GROUP:  2    C3        QUADRATURE POINTS, POSTERIOR WEIGHTS, MEAN AND S.D.:
+
+
+                   1           2           3           4           5
+ POINT       -0.3686E+01 -0.3433E+01 -0.3179E+01 -0.2926E+01 -0.2672E+01
+ POSTERIOR    0.8884E-04  0.2444E-03  0.6316E-03  0.1547E-02  0.3535E-02
+
+
+                   6           7           8           9          10
+ POINT       -0.2419E+01 -0.2166E+01 -0.1912E+01 -0.1659E+01 -0.1405E+01
+ POSTERIOR    0.7481E-02  0.1452E-01  0.2571E-01  0.4142E-01  0.6073E-01
+
+
+                  11          12          13          14          15
+ POINT       -0.1152E+01 -0.8984E+00 -0.6450E+00 -0.3916E+00 -0.1382E+00
+ POSTERIOR    0.8128E-01  0.9951E-01  0.1116E+00  0.1148E+00  0.1085E+00
+
+
+                  16          17          18          19          20
+ POINT        0.1153E+00  0.3687E+00  0.6221E+00  0.8755E+00  0.1129E+01
+ POSTERIOR    0.9462E-01  0.7642E-01  0.5734E-01  0.4008E-01  0.2614E-01
+
+
+                  21          22          23          24          25
+ POINT        0.1382E+01  0.1636E+01  0.1889E+01  0.2143E+01  0.2396E+01
+ POSTERIOR    0.1592E-01  0.9045E-02  0.4792E-02  0.2352E-02  0.1073E-02
+
+
+                  26          27          28          29          30
+ POINT        0.2649E+01  0.2903E+01  0.3156E+01  0.3410E+01  0.3663E+01
+ POSTERIOR    0.4429E-03  0.1706E-03  0.5973E-04  0.1877E-04  0.5143E-05
+
+ MEAN        -0.39007
+ S.E.         0.00483
+
+ S.D.         0.88172
+ S.E.         0.00350
+
+
+ GROUP:  3    C4        QUADRATURE POINTS, POSTERIOR WEIGHTS, MEAN AND S.D.:
+
+
+                   1           2           3           4           5
+ POINT       -0.3686E+01 -0.3433E+01 -0.3179E+01 -0.2926E+01 -0.2672E+01
+ POSTERIOR    0.7550E-04  0.1258E-03  0.2074E-03  0.3763E-03  0.7518E-03
+
+
+                   6           7           8           9          10
+ POINT       -0.2419E+01 -0.2166E+01 -0.1912E+01 -0.1659E+01 -0.1405E+01
+ POSTERIOR    0.1522E-02  0.2976E-02  0.5586E-02  0.1008E-01  0.1736E-01
+
+
+                  11          12          13          14          15
+ POINT       -0.1152E+01 -0.8984E+00 -0.6450E+00 -0.3916E+00 -0.1382E+00
+ POSTERIOR    0.2809E-01  0.4218E-01  0.5848E-01  0.7514E-01  0.9002E-01
+
+
+                  16          17          18          19          20
+ POINT        0.1153E+00  0.3687E+00  0.6221E+00  0.8755E+00  0.1129E+01
+ POSTERIOR    0.1010E+00  0.1060E+00  0.1038E+00  0.9452E-01  0.7992E-01
+
+
+                  21          22          23          24          25
+ POINT        0.1382E+01  0.1636E+01  0.1889E+01  0.2143E+01  0.2396E+01
+ POSTERIOR    0.6271E-01  0.4568E-01  0.3092E-01  0.1947E-01  0.1139E-01
+
+
+                  26          27          28          29          30
+ POINT        0.2649E+01  0.2903E+01  0.3156E+01  0.3410E+01  0.3663E+01
+ POSTERIOR    0.6210E-02  0.3146E-02  0.1476E-02  0.6348E-03  0.2445E-03
+
+ MEAN         0.39416
+ S.E.         0.00530
+
+ S.D.         0.94844
+ S.E.         0.00409
+
+
+ GROUP:  4    C5        QUADRATURE POINTS, POSTERIOR WEIGHTS, MEAN AND S.D.:
+
+
+                   1           2           3           4           5
+ POINT       -0.3686E+01 -0.3433E+01 -0.3179E+01 -0.2926E+01 -0.2672E+01
+ POSTERIOR    0.1400E-05  0.1876E-04  0.1651E-03  0.9057E-03  0.3096E-02
+
+
+                   6           7           8           9          10
+ POINT       -0.2419E+01 -0.2166E+01 -0.1912E+01 -0.1659E+01 -0.1405E+01
+ POSTERIOR    0.7377E-02  0.1516E-01  0.2922E-01  0.4765E-01  0.6617E-01
+
+
+                  11          12          13          14          15
+ POINT       -0.1152E+01 -0.8984E+00 -0.6450E+00 -0.3916E+00 -0.1382E+00
+ POSTERIOR    0.8885E-01  0.1138E+00  0.1229E+00  0.1115E+00  0.9713E-01
+
+
+                  16          17          18          19          20
+ POINT        0.1153E+00  0.3687E+00  0.6221E+00  0.8755E+00  0.1129E+01
+ POSTERIOR    0.8086E-01  0.6148E-01  0.4717E-01  0.3823E-01  0.2915E-01
+
+
+                  21          22          23          24          25
+ POINT        0.1382E+01  0.1636E+01  0.1889E+01  0.2143E+01  0.2396E+01
+ POSTERIOR    0.1913E-01  0.1078E-01  0.5378E-02  0.2421E-02  0.9758E-03
+
+
+                  26          27          28          29          30
+ POINT        0.2649E+01  0.2903E+01  0.3156E+01  0.3410E+01  0.3663E+01
+ POSTERIOR    0.3496E-03  0.1067E-03  0.2832E-04  0.6521E-05  0.1398E-05
+
+ MEAN        -0.44021
+ S.E.         0.08160
+
+ S.D.         0.89134
+ S.E.         0.05466
+
+
+ COMBINED GROUPS: QUADRATURE POINTS AND POSTERIOR WEIGHTS, MEAN AND S.D.:
+
+
+                   1           2           3           4           5
+ POINT       -0.3686E+01 -0.3433E+01 -0.3179E+01 -0.2926E+01 -0.2672E+01
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+
+                   6           7           8           9          10
+ POINT       -0.2419E+01 -0.2166E+01 -0.1912E+01 -0.1659E+01 -0.1405E+01
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+
+                  11          12          13          14          15
+ POINT       -0.1152E+01 -0.8984E+00 -0.6450E+00 -0.3916E+00 -0.1382E+00
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+
+                  16          17          18          19          20
+ POINT        0.1153E+00  0.3687E+00  0.6221E+00  0.8755E+00  0.1129E+01
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+
+                  21          22          23          24          25
+ POINT        0.1382E+01  0.1636E+01  0.1889E+01  0.2143E+01  0.2396E+01
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+
+                  26          27          28          29          30
+ POINT        0.2649E+01  0.2903E+01  0.3156E+01  0.3410E+01  0.3663E+01
+ POSTERIOR    0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+
+ MEAN         0.00000
+ S.D.         1.00000
+
+
+
+    807612 BYTES OF NUMERICAL WORKSPACE USED OF   2048000 AVAILABLE IN PHASE-2
+
+      6144 BYTES OF CHARACTER WORKSPACE USED OF    409600 AVAILABLE IN PHASE-2
+           01/05/2023  14:25:55
+
+

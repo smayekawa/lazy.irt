@@ -1,0 +1,89 @@
+nIRT: parameter estimation of nonparametric IRT models
+
+ Input data frame name = Uc2  (compressed=1)
+
+ id varaible = none ,  group varaible = none 
+ # of subjects = 1000 ,  # of items = 18 
+ # of groups = 1 
+ percentage of missing data = 0 
+ # of latent classes = 5 
+ estimation of class probabilities
+   estrho = 1 
+   baseform = 1 
+ total # of parameters to be estimated = 94  ( 90  +  4 ) 
+ min and max values of estimated p1 parameter =( 0.0000000001 , 1 )
+ max abs value of estimated parameter = 20 
+ max # of iterations = 1000  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 1 / 5  with eps = 0 and nstrict = 9 
+
+ SQUAREM = 3  will be used after 1 iterations with: 
+ minalpha =  -999 ,  maxalpha =  -1 ,  always =  1 ,  reset1 =  0 ,  reset2 = 1 
+
+ print level = 1 
+ initial item parameter values of the following items are given.
+[1]  1  2  3  7  8  9 13 14 15
+initial 
+lmlhp =  -11393.26
+
+Iteration converged with  213  iterations.  eps=  0.0000001 
+
+nIRT: parameter estimation of nonparametric IRT models
+
+ Input data frame name = Uc2  (compressed=1)
+
+ id varaible = none ,  group varaible = none 
+ # of subjects = 1000 ,  # of items = 18 
+ # of groups = 1 
+ percentage of missing data = 0 
+
+ # of classes = 5 
+ estimation of class distribution
+   estrho = 1 
+   baseform = 1 
+ total # of parameters to be estimated = 94  ( 90  +  4 ) 
+ min and max values of estimated p1 parameter =( 0.0000000001 , 1 )
+ max abs value of estimated parameter = 20 
+
+ iteration terminated with 213  iterations
+ max # of iterations in m-steps = 1 / 5  with eps = 0 and nstrict = 9 
+
+ SQUAREM = 3  will be used after 1 iterations with: 
+ minalpha =  -999 ,  maxalpha =  -1 ,  always =  1 ,  reset1 =  0 ,  reset2 = 1 
+
+
+ log marginal likelihood maximized = -8939.904 
+
+ max # of iterations = 1000  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 1  with eps = 0 and nstrict = 9 
+ print level = 1 
+
+ estimated item parameters
+V = 
+       Q1_0    Q1_1    Q2_0    Q2_1    Q3_0    Q3_1    Q4_0    Q4_1    Q5_0    Q5_1    Q6_0    Q6_1   
+class1   0.778   0.222   0.942   0.058   0.992   0.008   0.753   0.247   0.959   0.041   0.986   0.014
+class2   0.311   0.689   0.701   0.299   0.971   0.029   0.350   0.650   0.732   0.268   0.947   0.053
+class3   0.041   0.959   0.329   0.671   0.833   0.167   0.215   0.785   0.550   0.450   0.786   0.214
+class4   0.143   0.857   0.400   0.600   0.599   0.401   0.000   1.000   0.204   0.796   0.675   0.325
+class5   0.008   0.992   0.124   0.876   0.290   0.710   0.044   0.956   0.070   0.930   0.310   0.690
+       Q7_0    Q7_1    Q8_0    Q8_1    Q9_0    Q9_1    Q10_0   Q10_1   Q11_0   Q11_1   Q12_0   Q12_1  
+class1   0.806   0.194   1.000   0.000   0.991   0.009   0.772   0.228   0.948   0.052   1.000   0.000
+class2   0.262   0.738   0.842   0.158   0.990   0.010   0.325   0.675   0.824   0.176   0.963   0.037
+class3   0.126   0.874   0.167   0.833   0.819   0.181   0.065   0.935   0.235   0.765   0.835   0.165
+class4   0.000   1.000   0.399   0.601   0.824   0.176   0.000   1.000   0.395   0.605   0.771   0.229
+class5   0.000   1.000   0.048   0.952   0.271   0.729   0.010   0.990   0.039   0.961   0.301   0.699
+       Q13_0   Q13_1   Q14_0   Q14_1   Q15_0   Q15_1   Q16_0   Q16_1   Q17_0   Q17_1   Q18_0   Q18_1  
+class1   0.682   0.318   0.951   0.049   0.951   0.049   0.719   0.281   0.880   0.120   0.973   0.027
+class2   0.335   0.665   0.622   0.378   0.883   0.117   0.360   0.640   0.605   0.395   0.869   0.131
+class3   0.191   0.809   0.427   0.573   0.661   0.339   0.215   0.785   0.515   0.485   0.696   0.304
+class4   0.114   0.886   0.330   0.670   0.648   0.352   0.142   0.858   0.336   0.664   0.678   0.322
+class5   0.098   0.902   0.138   0.862   0.339   0.661   0.073   0.927   0.156   0.844   0.410   0.590
+
+
+ estimated class distribution 
+rho = 
+       c1       
+class1 0.1176313
+class2 0.3397188
+class3 0.1676254
+class4 0.2007937
+class5 0.1742307

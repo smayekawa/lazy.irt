@@ -1,0 +1,33 @@
+comment
+
+>GLOBAL DFName = 'c234.dat' 
+        NPArm  = 3, SAVE, OMITS;
+>SAVE   PARm   = 'c12303pl.par',
+        SCOre  = 'c12303pl.sco',
+        ISTat  = 'c12303pl.ist';
+>LENGTH NITems = 64;
+>INPUT  NTOtal  = 64, 
+        NIDchar = 11, 
+        NALt    = 1000, 
+        NGRoup  = 4, 
+        NFName  = 'c234.omt';
+>ITEMS  INAme   = (E01(1)E33,P01(1)P31);
+>TEST   TNAme   = 'Civics', 
+        INUmber = (1(1)64);
+>GROUP1 GNAme='C2', LENgth=64, INUmber=(1(1)64);
+>GROUP2 GNAme='C3', LENgth=64, INUmber=(1(1)64);
+>GROUP3 GNAme='C4', LENgth=64, INUmber=(1(1)64);
+>GROUP4 GNAme='C5', LENgth=64, INUmber=(1(1)64);
+(11A1,T13,I1,T15,64A1)
+>CALIB  ACCel = 0.5,
+        NORMAL,
+        REFerence = 0,
+        IDIST     = 0,
+        SPRIOR,
+        TPRIOR,
+        GPRIOR,
+        NOFLOAT;
+>SCORE  IDIST  = 0,
+        METHOD = 2,
+        NQPT   = 31,
+        NOPRINT;

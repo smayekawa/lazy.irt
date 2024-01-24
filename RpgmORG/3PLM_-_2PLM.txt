@@ -1,0 +1,32 @@
+ 3PLM -> 2PLM 
+> Print(rmse_p,rmse_ii,rmse_iic, fmt=".4")
+             c1                      c1                       c1    
+ rmse_p  = 0 0.0073 ,   rmse_ii  = 0 0.0285 ,   rmse_iic  = 0 0.0247
+           1 0.0371                1 0.0128                 1 0.0144
+           2 0.0349                2 0.0151                 2 0.0137
+> Print(paramall)
+paramall = 
+        p1      p2
+2PNM 1.000  0.0000
+0    0.716 -0.3937
+1    0.788  0.2698
+2    0.833  0.2180
+
+
+
+3PLM -> 2PNM 
+> Print(rmse_p,rmse_ii,rmse_iic, fmt=".4")
+             Q2                      Q2                       Q2    
+ rmse_p  = 0 0.0073 ,   rmse_ii  = 0 0.0287 ,   rmse_iic  = 0 0.0259
+           1 0.0428                1 0.0190                 1 0.0195
+           2 0.0407                2 0.0210                 2 0.0190
+> Print(paramall)
+paramall = 
+         p1      p2
+2PLM 1.0000  0.0000
+0    0.7348 -0.3988
+1    0.8076  0.3737
+2    0.8600  0.3170
+
+
+

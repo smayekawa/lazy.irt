@@ -1,0 +1,88 @@
+#' 数値カテゴリを持つ独立な多項分布の重み付き和の分布の計算
+#'
+#' 多項分布のカテゴリに数値が割り当てられている場合、それを scored multinomial
+#' distribution (SMN) と呼ぶ。この関数は複数の独立な SMN の重み付き
+#' 和の分布を計算する。\cr
+#' English help file: (\link[lazy.irt]{sumsmnw})
+#'
+#' @usage sumsmnw(P, V = NULL, w = rep(1, ncol(P)), ncat = NULL, compress = 0
+#' , print = 0, plot = 0, debug = 0)
+#'
+#' @param P 各 SMN のカテゴリの確率からなるの行列
+#' (max # of categories x # of SMN)
+#' @param V 各 SMN のカテゴリの数値からなる行列
+#'    (max # of categories x # of SMN) or NULL
+#' @param w 各 SMN への重みからなるベクトル         (1 x # of SMN)
+#' @param ncat 各 SMN のカテゴリ数       (1 x # of SMN)    or NULL
+#' @param compress = 1 度数が 0 となる得点を出力しない。
+#' @param print = 1 結果を出力
+#' @param plot = 1 結果をプロット
+#' @param debug = 1 途中経過を出力
+#'
+#' @details
+#'  \code{( V[,i], P[,i], w[i] ), i=1,2,...,n} を第 i 番目の SMN の \cr
+#'  ( カテゴリの数値 ,カテゴリの確率, 重み ) であるとする。
+#'  また、カテゴリの数値ベクトル V と確率ベクトル P を持つ SNM を
+#'  \code{SNM(V,P)} と記す。
+#'
+#' カテゴリの数値が \code{0,1,2,\ldots,(ncat[i]-1)} の場合には、
+#' \code{V[,i]=0:(ncat[i]-1)} とすれば良いが、これを natural category weight
+#' と呼び、 \code{V=NULL} で自動的に設定される。
+#' 他方、irt における多値項目の
+#' 各項目カテゴリに重みを付けて得点を計算する様な場合には、\code{V} は
+#' 各項目カテゴリへの重みと見做すことも出来る。
+#'
+#'
+#'  \code{ncat[i]} が第 i 番目の SMN のカテゴリ数とすれば
+#'  \code{P[(ncat[i]+1):nrow(P),i] == NA} である。 \cr
+#'\cr
+#'   この関数は、以下の重み付き和の分布を計算する。\cr
+#'     \eqn{X = \sum_{i=1}^n w[i] X_i} \cr
+#'    ただし \cr
+#'     \eqn{X_i} は \code{ SMN(V[,i],P[,i]),i=1,2,...,n} で \cr
+#'     \eqn{V[1,i] \le  X_i  \le V[ncat[i],i]}  を満たす。
+#'     したがって、\eqn{X} の値域は \cr
+#'    \eqn{\sum_{i=1}^n V[1,i]*w[i] \le X \le \sum_{i=1}^n V[ncat[i],i]*w[i]}
+#'    \cr
+#'    である。
+#'
+#' なお、カテゴリの数値が整数でない場合には、線形変換でできる限り整数に変換し、
+#' 確率を計算した後に元の値に戻すものとする。
+#'
+#' 実際の計算では、二つの SMN の重み付き和の分布を
+#' \link[lazy.irt]{sumsmnw12} で求めることを再帰的に繰り返して行く。
+#'
+#'
+#'
+#' @return \code{(score, prob)} からなる行列で \code{score} は X の値域を
+#' \code{prob} は確率を要素に持つベクトルである。
+#'
+#'
+#' @examples
+#' # category x variable matrix of probability:  colSums(P)=c(1,1,1...)
+#' P <- matrix(c(1,2,3,2,   1,2,1,0,  1,2,0,0), 4,3)
+#' P <- t(t(P)/colSums(P))
+#' ncat <- c(4,3,2)
+#' # category x variable matrix of natural category weight
+#' V <- NULL
+#' # variable weight
+#' w <- c(.5,1,1)
+#' res <- sumsmnw( P, V, w, compress=0, print=1, plot=1, ncat=ncat )
+#'
+#' # category x variable matrix of category weight
+#' V <- matrix(c(0,1,2,3,   1,2,3,0,  1,1,0,0), 4,3)
+#' # variable weight
+#' w <- c(.5,1,1)
+#' res <- sumsmnw( P, V, w, compress=0, print=1, plot=1, ncat=ncat )
+#'
+#'
+#' @references Mayekawa, S., & Arai, S. (2008).
+#' Distribution of the Sum of Scored Multinomial Random Variables
+#' and Its Application to the Item Response Theory.
+#' In K. Shigemasu, A. Okada, T.Imaizumi, & T. Hoshino (Eds.)
+#' New Trends in Psychometrics. Tokyo: University Academic Press.
+#'
+#' # @keywords internal
+#' @docType package
+#' @name sumsmnw_JPH
+NULL

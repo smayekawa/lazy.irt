@@ -1,0 +1,101 @@
+#' Normal GRM への変換
+#'
+#' 重み付き最小２乗法を用いた Normal GRM への変換 \cr
+#' English help file: (\link[lazy.irt]{conv2Gn})
+#'
+#' @usage conv2Gn( param, theta=NULL, init=1, paramG=NULL
+#' , method=0, wtype=1, wmean=0, wsd=1, DinP=1
+#' , npoints=21, thmin=-3, thmax=3, printGN=0
+#' , maxiter=500, eps=1e-6, epsg=1e-6, epsx=1e-9
+#' , print=1, plot=0 )
+#'
+#' @param param 以下の項目タイプを持つ項目の項目パラメタデータフレーム \cr
+#'   "B3","B","Bn3","P", "G"
+#' @param theta theta の離散値
+#' @param init  = 1 初期値を \code{fitG2P} で求める, = 0 等間隔な初期値
+#' @param paramG 項目パラメタの初期値を含む項目パラメタデータフレームで
+#'  \code{init} の指定より優先される.
+#' @param method = 1 icrf を用いて rmse を計算する\cr
+#' = 2 icif を用いて rmse を計算する\cr
+#' = 3 iif を用いて rmse を計算する \cr
+#' = 4 irf を用いて rmse を計算する (not yet available)
+#' @param wtype = 0 \code{dnorm(theta)} を重みとして用いない
+#' @param wmean 重みとして用いられる正規分布の平均
+#' @param wsd 重みとして用いられる正規分布の標準偏差
+#' @param DinP = 1 ロジスティク関数に D=1.7 を用いる
+#' @param npoints theta の離散値の個数
+#' @param thmin theta の離散値の最小値
+#' @param thmax theta の離散値の最大値
+#' @param printGN \code{lazy.mat::GN} の \code{print} オプション
+#' @param maxiter Gauss-Newton 法の繰り返し数
+#' @param eps  収束判定基準: rmse の改善率の最大値
+#' @param epsg 収束判定基準: gradient の絶対値の最大値
+#' @param epsx 収束判定基準: パラメタの変化の絶対値の最大値
+#' @param print >= 1 結果の表示
+#' @param plot >= 1 グラフの表示
+#'
+#' @return 以下のものからなるリスト
+#' \preformatted{
+#' paramNew: normal GRM 項目パラメタデータフレーム
+#'  ( \code{param} に含まれる 2PNM の項目は変換されない）
+#' paramP:  \code{param} で指定された項目パラメタデータフレーム
+#' grad: gradient 行列
+#' wtype, wmean, wsd, method, init
+#' rmse_p: icrf を用いた rmse (method=1 の場合にはこれが最適化されている)
+#' rmse_irf: irf を用いた rmse
+#' rmse_ii: iif を用いた rmse
+#' rmse_iic: icrf を用いた rmse (method=2 の場合にはこれが最適化されている)
+#' icrfNew, icifNew, iifNew, irfNew （変換後の項目反応関数等）
+#' icrfOld, icifOld, iifOld, irfOld （変換前の項目反応関数等）
+#' }
+#'
+#' @details
+#' \code{method = 1} の場合には、以下の残差の２乗和\cr
+#' \code{ sum( w*( vec(icrf(theta)) - vec(icrf_GRM(theta|PARAM)) )^2 ) } \cr
+#' が GRM の項目パラメタ (PARAM) に関して最適化される。 \cr
+#' ただし、 \code{icrf(theta)} は入力された項目の icrf, \cr
+#'  \code{icrf_GRM(theta|PARAM)} は normal GRM の icrf, そして\cr
+#'  \code{w} は特性値の離散点 (theta) にかかる重みである。
+#'  ( \code{N(wmean,wsd^2)} or 1 ). \cr
+#'
+#' \code{method = 2} の場合には、以下の残差の２乗和 \cr
+#' \code{ sum( w*( vec(info_ic(theta)) - vec(info_ic_GRM(theta|PARAM)) )^2 ) }
+#'  \cr
+#' が GRM の項目パラメタ (PARAM) に関して最適化される。 \cr
+#' ただし \code{info_ic(theta)} は入力された項目の icif, \cr
+#' \code{info_ic_GRM(theta|PARAM)} は normal GRM の icif である。 \cr
+#'
+#' \code{method = 3} の場合には、以下の残差の２乗和 \cr
+#' \code{ sum( w*( info_i(theta) - info_i_GRM(theta|PARAM) )^2 ) } \cr
+#' が GRM の項目パラメタ (PARAM) に関して最適化される。 \cr
+#' ただし \code{info_i(theta)} は入力された項目の iif, \cr
+#'  \code{info_i_GRM(theta|PARAM)} は normal GRM の iif である。 \cr
+#'
+#' \cr
+#' \code{param} に 3PNM の項目が含まれる場合には 2PNM に変換される。
+#'
+#' \cr
+#' 最適化に際しては \code{lazy.mat::GN} を利用した重み付き Gauss-Newton 法が
+#' 用いられるが、２次導関数の計算には \code{lazy.mat::JacobianMat} を利用した
+#' 数値微分が用いられている。
+#'
+#'
+#' @references
+#' 前川眞一 (2023) 項目反応理論におけるモデル変換. 日本テスト学会誌 19(1) 35-58.
+#'
+#'
+#' @examples
+#' # convert 3PLM and GPCM items to normal GRM items
+#' param <- paramA1[c(2,5,8),]
+#' theta <- seq(-4,4,length=51)#'
+#' # maxiter for method=2 is too small.
+#' res1 <- conv2Gn( param, theta, maxiter=20, plot=1, wtype=1, method=1 )
+#' res2 <- conv2Gn( param, theta, maxiter=2, plot=1, wtype=1, method=2 )
+#'
+#' Print(res1$rmse_p, res1$rmse_iic, res1$rmse_ii)
+#' Print(res2$rmse_p, res1$rmse_iic, res1$rmse_ii)
+#'
+#'
+#' @docType package
+#' @name conv2Gn_JPH
+NULL

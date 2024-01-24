@@ -1,0 +1,17 @@
+Package: lazy.irt
+Type: Package
+Title: Some IRT functions for lazy boys and girls
+Version: 0.1.5
+Date: 2023-11-03
+Author: Shin-ichi Mayekawa <mayekawa@nifty.com>
+Maintainer: Shin-ichi Mayekawa <mayekawa@nifty.com>
+Description: This package contains some psychometric (IRT) functions.
+Depends:
+    lazy.tools,
+    lazy.mat,
+    lazy.accel,
+    R (>= 2.10)
+License: GPL-3
+LazyData: TRUE
+Encoding: UTF-8
+RoxygenNote: 7.2.3

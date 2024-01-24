@@ -1,0 +1,214 @@
+> source('~/.active-rstudio-document')
+'data.frame':	9 obs. of  6 variables:
+ $ name: chr  "Q1" "Q2" "Q3" "Q4" ...
+ $ type: chr  "B" "B" "B" "B" ...
+ $ ncat: num  2 2 2 2 2 2 2 2 2
+ $ p1  : num  1 1 1 1.2 1.2 1.2 0.8 0.8 0.8
+ $ p2  : num  -1 0 1 -1 0 1 -1 0 1
+ $ p3  : num  0 0 0 0 0 0 0 0 0
+param = 
+  name type ncat  p1 p2 p3
+1   Q1    B    2 1.0 -1  0
+2   Q2    B    2 1.0  0  0
+3   Q3    B    2 1.0  1  0
+4   Q4    B    2 1.2 -1  0
+5   Q5    B    2 1.2  0  0
+6   Q6    B    2 1.2  1  0
+7   Q7    B    2 0.8 -1  0
+8   Q8    B    2 0.8  0  0
+9   Q9    B    2 0.8  1  0
+
+
+
+
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ Input data frame name = Uc  (compressed=1)
+
+ id varaible = none ,  group varaible = none 
+ # of observations = 200 ,  # of items = 9 
+ # of groups = 1 
+ percentage of missing data = 0.1111111 
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 0 ,  estsigma = 0 
+   baseform = 1 
+ total # of parameters to be estimated = 18  ( 18  +  0 ) 
+ max abs value of estimated parameter = 20 
+ max # of iterations = 200  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+
+ SQUAREM = 3  will be used after 1 iterations with: 
+ minalpha =  -999 ,  maxalpha =  -1 ,  always =  1 ,  reset1 =  0 ,  reset2 = 1 
+
+ print level = 2 
+ D in P = 1 
+ inital parameter value 
+param = 
+      name type ncat p1 p2 p3
+item1   Q1    B    2  1  0  0
+item2   Q2    B    2  1  0  0
+item3   Q3    B    2  1  0  0
+item4   Q4    B    2  1  0  0
+item5   Q5    B    2  1  0  0
+item6   Q6    B    2  1  0  0
+item7   Q7    B    2  1  0  0
+item8   Q8    B    2  1  0  0
+item9   Q9    B    2  1  0  0
+
+
+msn = 
+       mu  sigma n  
+group1   0   1   200
+
+initial 
+lmlhp =  -1039.377
+ iSQUAREM will be invoked with the following parameters from <environment: 0x1446f640>
+   SQUAREM    =  3 
+   nSQUAREM   =  1 
+   always     =  1 
+   minalpha   =  -999 
+   maxalpha   =  -1 
+   reset1     =  0 
+   reset2     =  1 
+   bof_value  =  NULL 
+                                                                                                                
+ llll  =      1 ,   lmlh  =   -828.433698 ,   lmlhp  =   -1039.376970 ,   lmlhimpr  =   0.202952 ,   maxadp  =  
+                                   
+ 0.941334 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      2 ,   lmlh  =   -825.460606 ,   lmlhp  =   -828.433698 ,   lmlhimpr  =   0.003589 ,   maxadp  =  
+                                   
+ 0.160376 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      3 ,   lmlh  =   -824.570315 ,   lmlhp  =   -825.460606 ,   lmlhimpr  =   0.001079 ,   maxadp  =  
+                                   
+ 0.089096 ,   maxadms  =   0.000000
+SQUAREM employed.                                           
+ badness1  =   . ,   alpha  =   -1.8694246
+                                                                                                               
+ llll  =      4 ,   lmlh  =   -823.810187 ,   lmlhp  =   -824.015126 ,   lmlhimpr  =   0.000249 ,   maxadp  =  
+                                   
+ 0.032809 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      5 ,   lmlh  =   -823.746929 ,   lmlhp  =   -823.810187 ,   lmlhimpr  =   0.000077 ,   maxadp  =  
+                                   
+ 0.012920 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      6 ,   lmlh  =   -823.708529 ,   lmlhp  =   -823.746929 ,   lmlhimpr  =   0.000047 ,   maxadp  =  
+                                   
+ 0.008710 ,   maxadms  =   0.000000
+SQUAREM employed.                                           
+ badness1  =   . ,   alpha  =   -3.9056363
+                                                                                                               
+ llll  =      7 ,   lmlh  =   -823.646889 ,   lmlhp  =   -823.688170 ,   lmlhimpr  =   0.000050 ,   maxadp  =  
+                                   
+ 0.011797 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      8 ,   lmlh  =   -823.646376 ,   lmlhp  =   -823.646889 ,   lmlhimpr  =   0.000001 ,   maxadp  =  
+                                   
+ 0.001686 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =      9 ,   lmlh  =   -823.646340 ,   lmlhp  =   -823.646376 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000544 ,   maxadms  =   0.000000
+SQUAREM employed.                                           
+ badness1  =   . ,   alpha  =   -1.1900120
+                                                                                                               
+ llll  =     10 ,   lmlh  =   -823.646321 ,   lmlhp  =   -823.646332 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000222 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     11 ,   lmlh  =   -823.646315 ,   lmlhp  =   -823.646321 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000146 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     12 ,   lmlh  =   -823.646312 ,   lmlhp  =   -823.646315 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000102 ,   maxadms  =   0.000000
+SQUAREM employed.                                           
+ badness1  =   . ,   alpha  =   -3.3100056
+                                                                                                               
+ llll  =     13 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000025 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     14 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000013 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     15 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000008 ,   maxadms  =   0.000000
+SQUAREM employed.                                           
+ badness1  =   . ,   alpha  =   -2.3572869
+                                                                                                               
+ llll  =     16 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000002 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     17 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000001 ,   maxadms  =   0.000000
+                                                                                                               
+ llll  =     18 ,   lmlh  =   -823.646307 ,   lmlhp  =   -823.646307 ,   lmlhimpr  =   0.000000 ,   maxadp  =  
+                                   
+ 0.000001 ,   maxadms  =   0.000000
+
+Iteration converged with  18  iterations.  eps=  0.0000001 
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ Input data frame name = Uc  (compressed=1)
+
+ id varaible = none ,  group varaible = none 
+ # of observations = 200 ,  # of items = 9 
+ # of groups = 1 
+ percentage of missing data = 0.1111111 
+
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 0 ,  estsigma = 0 
+   baseform = 1 
+ total # of parameters to be estimated = 18  ( 18  +  0 ) 
+ max abs value of estimated parameter = 20 
+
+ iteration terminated with 18  iterations
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+
+ SQUAREM = 3  will be used after 1 iterations with: 
+ minalpha =  -999 ,  maxalpha =  -1 ,  always =  1 ,  reset1 =  0 ,  reset2 = 1 
+
+
+ log marginal likelihood maximized = -823.6463 
+
+ max # of iterations = 200  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20  with eps = 0.0001 and nstrict = 9 
+ print level = 2 
+
+ estimated item parameters (DinP= 1 ) 
+param = 
+      name type ncat        p1         p2 p3
+item1   Q1    B    2 1.3263396 -1.0778802  0
+item2   Q2    B    2 1.3424587 -0.2396108  0
+item3   Q3    B    2 1.2492035  0.7227070  0
+item4   Q4    B    2 1.1045162 -1.2204253  0
+item5   Q5    B    2 0.9401490 -0.2935368  0
+item6   Q6    B    2 1.3317999  0.8905334  0
+item7   Q7    B    2 0.7642794 -1.2942480  0
+item8   Q8    B    2 0.6513330 -0.3065221  0
+item9   Q9    B    2 0.9754474  0.5048818  0
+
+
+
+ estimated mean and std of theta distribution 
+msn = 
+       mu  sigma n  
+group1   0   1   200
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+ # convert 3PLM and GRM to GPCM items
+ param <- paramA1[c(2,6,9),]
+ theta <- seq(-4,4,length=51)
+ res1 <- conv2P( param, theta, maxiter=20, plot=1, wtype=1, method=1 )
+ res2 <- conv2P( param, theta, maxiter=20, plot=1, wtype=1, method=2 )
+
+ Print(res1$rmse_p, res1$rmse_iic, res1$rmse_ii)
+ Print(res2$rmse_p, res2$rmse_iic, res2$rmse_ii)
+
+
+
+ # convert 3PLM and GPCM items to logistic GRM items
+ param <- paramA1[c(2,5,8),]
+ theta <- seq(-4,4,length=51)
+ res1 <- conv2G( param, theta, maxiter=20, plot=1, wtype=1, method=1 )
+ res2 <- conv2G( param, theta, maxiter=20, plot=1, wtype=1, method=2 )
+
+ Print(res1$rmse_p, res1$rmse_iic, res1$rmse_ii)
+ Print(res2$rmse_p, res2$rmse_iic, res2$rmse_ii)
+
+
+
+ # convert 3PLM and GPCM items to normal GRM items
+ param <- paramA1[c(2,5,8),]
+ theta <- seq(-4,4,length=51)
+
+ # maxiter below is too small!!
+ res1 <- conv2Gn( param, theta, maxiter=20, plot=1, wtype=1, method=1 )
+ res2 <- conv2Gn( param, theta, maxiter=20, plot=1, wtype=1, method=2 )
+
+ Print(res1$rmse_p, res1$rmse_iic, res1$rmse_ii)
+ Print(res2$rmse_p, res1$rmse_iic, res2$rmse_ii)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^RpgmORG$
+^R_copy$
+^data-raw$

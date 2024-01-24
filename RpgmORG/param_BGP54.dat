@@ -1,0 +1,21 @@
+name  type ncat p1        p2         p3         p4   by fitP2G
+QB3   B3  2    1          1           0.2       NA
+QB2   B2  2    1          0           0.3       NA
+QB4   B3  2    .8         1           0.2       NA
+QB1   B2  2    1         -1           NA        NA
+QG1   G   3    1.0       -2          0          NA
+QG3   G   3    1.0        0          2          NA
+QG2   G   3    1.0       -1          1          NA
+QG4   G   3    0.7       -3          1          NA
+QG5   G   3    0.7       -2          2          NA
+QG6   G   3    0.7       -1          3          NA
+QG7   G   4    1.0       -2          0           2
+QG8   G   4    0.7       -2          0           2
+QPN1  PN  3    0.7344    -2.1150    -1.0310     NA
+QPN3  PN  3    0.8237     0.0790     0.9871     NA
+QPN2  PN  3    0.8020    -0.9985     0.0000     NA
+QPN4  PN  3    0.5998    -3.1934    -1.0192     NA
+QPN5  PN  3    0.6258    -2.1071     0.0000     NA
+QPN6  PN  3    0.6319    -1.0512     0.9921     NA
+QPN7  PN  4    0.6483    -2.3307    -1.0627      0
+QPN8  PN  4    0.4231    -1.9974    -1.0154      0

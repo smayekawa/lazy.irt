@@ -1,0 +1,44 @@
+D:\RPGM\Stanine3\conversion3.R
+D:\RPGM\Stanine3\conversion3 - コピー (2).R
+D:\RPGM\Stanine3\conversion3 - コピー.R
+D:\RPGM\Stanine3\compare6 - コピー.R
+D:\RPGM\Stanine3\compare6.R
+D:\RPGM\Stanine3\compare5.R
+D:\RPGM\Stanine3\compare4.R
+D:\RPGM\Stanine3\plot_pcdf.R
+D:\RPGM\DNC5\varimaxx.R
+D:\RPGM\DNC5\plot_pc2.R
+D:\RPGM\DNC4\plot_pc2.R
+D:\RPGM\DNC4\varimaxx.R
+D:\RPGM\DNC4\fa2.R
+D:\RPGM\DNC4\fa.R
+D:\RPGM\DNC4\plot_pc.R
+D:\RPGM\Stanine2\info_grade8.R
+D:\RPGM\Stanine2\info_grade7.R
+D:\RPGM\Stanine2\info_grade6.R
+D:\RPGM\Stanine\info_grade5.R
+D:\RPGM\Stanine2\info_grade5.R
+D:\RPGM\Stanine\graded_score_all7.R
+D:\RPGM\Stanine2\graded_score_all7.R
+D:\RPGM\Stanine\graded_score_all_all6.R
+D:\RPGM\Stanine\info_grade4.R
+D:\RPGM\Stanine\info_grade3.R
+D:\RPGM\Stanine\info_grade2.R
+D:\RPGM\Stanine\graded_score_all6 - コピー.R
+D:\RPGM\Stanine\graded_score_all6.R
+D:\RPGM\Stanine\graded_score_all5.R
+D:\RPGM\Stanine\graded_score_all4.R
+D:\RPGM\Stanine\graded_score_all3.R
+D:\RPGM\Stanine\graded_score_all2.R
+D:\RPGM\Stanine\graded_score4.R
+D:\RPGM\equating\graded_score_all2.R
+D:\RPGM\equating\graded_score_all.R
+D:\RPGM\Stanine\graded_score_all.R
+D:\RPGM\equating\graded_score3.R
+D:\RPGM\Stanine\graded_score3.R
+D:\RPGM\equating\plotall.R
+D:\RPGM\Stanine\plotall.R
+D:\RPGM\equating\combinedplot.R
+D:\RPGM\Stanine\combinedplot.R
+D:\RPGM\tools\scatterBarNorm.R
+D:\RPGM\radar.R

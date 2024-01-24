@@ -1,0 +1,57 @@
+
+
+res = 
+$icrfB
+[1] "dicrfB"     "dirf_p"     "fitI2L_ls"  "fitI2L_ls0" "icrfG"      "irf"     
+
+$dicrfB
+[1] "dicrfG" "dirf"  
+
+
+
+res = 
+$icrfG
+[1] "dirf_p"    "fitG2P"    "fitP2G"    "fitP2G_ls" "irf"      
+
+$dicrfG
+[1] "dirf"
+
+
+
+res = 
+$icrfP
+[1] "dirf_p"    "fitG2P_ls" "irf"      
+
+$icrfPN
+[1] "dicrfP" "dirf_p" "fitG2P" "irf"   
+
+$icrfPN0
+[1] "dicrfPN"  "dicrfPN0" "fitP2G"  
+
+$dicrfP
+[1] "dirf"
+
+$dicrfPN
+[1] "dirf"
+
+$dicrfPN0
+character(0)
+
+
+
+
+res = 
+$plot
+ [1] "dicrfB"            "dicrfG"            "dicrfN"            "dicrfP"            "dicrfPN"          
+ [6] "dicrfPN0"          "dirf"              "est_rank"          "est_theta"         "fit223_ls"        
+[11] "fitG2P"            "fitG2P_ls"         "fitI2L"            "fitI2L_ls"         "fitI2L_ls0"       
+[16] "fitP2G"            "fitP2G_ls"         "flatten_SEM"       "flatten_SEM_theta" "graded_info"      
+[21] "icrfB"             "icrfG"             "icrfP"             "icrfPN"            "icrfPN0"          
+[26] "info_func"         "irf"               "obscore"           "rel_irt"           "smn"              
+[31] "sumsmnw"           "uIRT"              "uLRT"             
+
+$matplot
+ [1] "dicrfB"      "fitI2L"      "fitI2L_ls"   "fitI2L_ls0"  "graded_info" "icrfB"       "info_func"   "obscore"    
+ [9] "rel_irt"     "uLRT"       
+
+

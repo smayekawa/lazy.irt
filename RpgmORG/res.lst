@@ -1,0 +1,415 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: i386-w64-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+ R_USER is set to D:\Rpgm\settings.
+ D:\Rpgm\settings\.Rprofile is used.
+
+ zalpha, zAlpha and zdigit are defined.
+
+ options(scipen=8) was specified.
+ Type   windows(record=T)   before creating multiple graphs.
+
+ Type   rm(list=ls())    to remove all objects.
+
+ Type install.packages("D:/RPGM/packages/lazy.tools_0.1.2.zip" , repos = NULL)  to reflesh.
+ Or type
+install.packages("http://www.ms.hum.titech.ac.jp/mayekawadocs/Rpackages/lazy.tools_0.1.2.zip", repos=NULL) 
+ and 
+
+ Type library(lazy.tools) , library(lazy.mat) , library(lazy.stat)  , library(lazy.symbolic2) , library(lazy.sasef) , library(lazy.cluster)   to load these utilities .
+
+
+Currently, the following packages are attached.
+[1] ".GlobalEnv"           "C:/R/library/methods" "Autoloads"           
+[4] "C:/R/library/base"   
+
+Type search() or searchpaths() to see all the packages attached.
+[Workspace loaded from D:/RPGM/packages/lazy.irt/.RData]
+
+> library(lazy.irt)
+Loading required package: lazy.tools
+Loading required package: naturalsort
+Loading required package: lazy.mat
+> source('~/.active-rstudio-document')
+
+
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ id varaible = none ,  group varaible = none 
+ # of observations = 500 ,  # of items = 4 
+ # of groups = 1 
+ percentage of mising data = 0 
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 0 ,  estsigma = 0 
+   baseform = 1 
+ total # of parameters to be estimated = 13  ( 13  +  0 ) 
+ max abs value of estimated parameter = 20 
+ max # of iterations = 200  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+ SQUAREM = 3  will be used after 1 iterations  with min(alpha) = -6 
+ print level = 2 
+ D in P = 1 
+ inital parameter value 
+param = 
+      name type ncat p1 p2  p3 p4
+item1   Q1    B    2  1  0 0.0 NA
+item2   Q2   B3    2  1  0 0.3 NA
+item3   Q3    G    4  1 -1 0.0  1
+item4   Q4    P    4  1 -1 0.0  1
+
+
+msn = 
+       mu  sigma n  
+group1   0   1   500
+
+initial 
+lmlhp =  -1878.575
+                                                                                                                              
+ llll  =      1 ,   lmlh  =   -1722.259043 ,   lmlhp  =   -1878.574577 ,   lmlhimpr  =   0.083210 ,   maxadp  =   0.978804 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      2 ,   lmlh  =   -1712.813583 ,   lmlhp  =   -1722.259043 ,   lmlhimpr  =   0.005484 ,   maxadp  =   0.289350 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      3 ,   lmlh  =   -1709.995807 ,   lmlhp  =   -1712.813583 ,   lmlhimpr  =   0.001645 ,   maxadp  =   0.164768 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1709.117850 ,   lmlh  =   -1709.117850 ,   alpha  =   -2.187458 ,   maxadp  =   0.385270
+                                                                                                                              
+ llll  =      4 ,   lmlh  =   -1707.924667 ,   lmlhp  =   -1709.117850 ,   lmlhimpr  =   0.000698 ,   maxadp  =   0.131152 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      5 ,   lmlh  =   -1707.851500 ,   lmlhp  =   -1707.924667 ,   lmlhimpr  =   0.000043 ,   maxadp  =   0.040493 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.835741 ,   lmlh  =   -1707.835741 ,   alpha  =   -1.170760 ,   maxadp  =   0.053651
+                                                                                                                              
+ llll  =      6 ,   lmlh  =   -1707.807617 ,   lmlhp  =   -1707.835741 ,   lmlhimpr  =   0.000016 ,   maxadp  =   0.031504 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      7 ,   lmlh  =   -1707.789707 ,   lmlhp  =   -1707.807617 ,   lmlhimpr  =   0.000010 ,   maxadp  =   0.027368 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      8 ,   lmlh  =   -1707.777893 ,   lmlhp  =   -1707.789707 ,   lmlhimpr  =   0.000007 ,   maxadp  =   0.023996 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      9 ,   lmlh  =   -1707.769934 ,   lmlhp  =   -1707.777893 ,   lmlhimpr  =   0.000005 ,   maxadp  =   0.021127 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     10 ,   lmlh  =   -1707.764490 ,   lmlhp  =   -1707.769934 ,   lmlhimpr  =   0.000003 ,   maxadp  =   0.018635 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     11 ,   lmlh  =   -1707.760722 ,   lmlhp  =   -1707.764490 ,   lmlhimpr  =   0.000002 ,   maxadp  =   0.016473 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     12 ,   lmlh  =   -1707.758090 ,   lmlhp  =   -1707.760722 ,   lmlhimpr  =   0.000002 ,   maxadp  =   0.014579 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     13 ,   lmlh  =   -1707.756287 ,   lmlhp  =   -1707.758090 ,   lmlhimpr  =   0.000001 ,   maxadp  =   0.012482 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     14 ,   lmlh  =   -1707.755352 ,   lmlhp  =   -1707.756287 ,   lmlhimpr  =   0.000001 ,   maxadp  =   0.002161 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.755158 ,   lmlh  =   -1707.755158 ,   alpha  =   -1.123095 ,   maxadp  =   0.002685
+                                                                                                                              
+ llll  =     15 ,   lmlh  =   -1707.754578 ,   lmlhp  =   -1707.755158 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.001666 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     16 ,   lmlh  =   -1707.754178 ,   lmlhp  =   -1707.754578 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.001391 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.753308 ,   lmlh  =   -1707.753308 ,   alpha  =   -5.838132 ,   maxadp  =   0.008457
+                                                                                                                              
+ llll  =     17 ,   lmlh  =   -1707.753280 ,   lmlhp  =   -1707.753308 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.001851 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     18 ,   lmlh  =   -1707.753278 ,   lmlhp  =   -1707.753280 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000067 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.753278 ,   lmlh  =   -1707.753278 ,   alpha  =   -1.024851 ,   maxadp  =   0.000070
+                                                                                                                              
+ llll  =     19 ,   lmlh  =   -1707.753278 ,   lmlhp  =   -1707.753278 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000043 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     20 ,   lmlh  =   -1707.753278 ,   lmlhp  =   -1707.753278 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000027 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.753278 ,   lmlh  =   -1707.753278 ,   alpha  =   -2.328965 ,   maxadp  =   0.000070
+                                                                                                                              
+ llll  =     21 ,   lmlh  =   -1707.753256 ,   lmlhp  =   -1707.753278 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000732 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     22 ,   lmlh  =   -1707.753254 ,   lmlhp  =   -1707.753256 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000084 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.753254 ,   lmlh  =   -1707.753254 ,   alpha  =   -1.116699 ,   maxadp  =   0.000095
+                                                                                                                              
+ llll  =     23 ,   lmlh  =   -1707.753253 ,   lmlhp  =   -1707.753254 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000048 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     24 ,   lmlh  =   -1707.753253 ,   lmlhp  =   -1707.753253 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000024 ,  
+                      
+ maxadms  =   0.000000
+SQUAREM success                                                                                                      
+ lmlh0  =   -1707.753253 ,   lmlh  =   -1707.753253 ,   alpha  =   -2.381333 ,   maxadp  =   0.000052
+                                                                                                                              
+ llll  =     25 ,   lmlh  =   -1707.753253 ,   lmlhp  =   -1707.753253 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000016 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =     26 ,   lmlh  =   -1707.753253 ,   lmlhp  =   -1707.753253 ,   lmlhimpr  =   0.000000 ,   maxadp  =   0.000001 ,  
+                      
+ maxadms  =   0.000000
+
+Iteration converged with  26  iterations.  eps=  0.0000001 
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ id varaible = none ,  group varaible = none 
+ # of observations = 500 ,  # of items = 4 
+ # of groups = 1 
+ percentage of mising data = 0 
+
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 0 ,  estsigma = 0 
+   baseform = 1 
+ total # of parameters to be estimated = 13  ( 13  +  0 ) 
+ max abs value of estimated parameter = 20 
+
+ iteration terminated with 26  iterations
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+ SQUAREM = 3  will be used after 1 iterations  with min(alpha) = -6 
+    # of successes = 8  out of 15 
+
+ log marginal likelihood maximized = -1707.753 
+
+ max # of iterations = 200  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20  with eps = 0.0001 and nstrict = 9 
+ print level = 2 
+
+ estimated item parameters (DinP= 1 ) 
+param = 
+      name type ncat        p1         p2                 p3       p4
+item1   Q1    B    2 0.8644236 -0.1042615  0.000000000000000       NA
+item2   Q2   B3    2 0.5554220 -0.6245594  0.000000002061154       NA
+item3   Q3    G    4 1.0571808 -2.1648623 -0.205738898055413 1.821864
+item4   Q4    P    4 0.5517542 -2.4034467 -0.155226763988950 2.566631
+
+
+
+ estimated mean and std of theta distribution 
+msn = 
+       mu  sigma n  
+group1   0   1   500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> 
+> # multi-group analysis with different theta distributions
+> set.seed(1701)
+> indata1 <- gendataIRT( 1, paramS1, npoints=500, thdist="rnorm"
++                        , compress=1 )$U
+> indata1 <- as.data.frame(indata1,row.names=NULL)
+> indata1 <- data.frame(group="G1",indata1, stringsAsFactors=0,row.names=NULL)
+> indata2 <- gendataIRT( 1, paramS1, npoints=500, thdist="rnorm", compress=1
++                        , thmean=1, thstd=1 )$U
+> indata2 <- as.data.frame(indata2,row.names=NULL)
+> indata2 <- data.frame(group="G2",indata2, stringsAsFactors=0,row.names=NULL)
+> indata12 <- rbind(indata1,indata2)
+> itemtype <- paramS1$type
+> # This will not converge: increase maxiter.
+> res1 <- uIRT( indata12, "group", type=itemtype, maxiter=10, baseform=1
++               , estmu=1, estsigma=1, minalpha=-2, SQUAREM=3, plot=1 )
+
+
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ id varaible = none ,  group varaible = group 
+ # of observations = 1000 ,  # of items = 4 
+ # of groups = 2 
+  group1 group2 
+  "G1"   "G2" 
+ percentage of mising data = 0 
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 1 ,  estsigma = 1 
+   baseform = 1 
+ total # of parameters to be estimated = 15  ( 13  +  2 ) 
+ max abs value of estimated parameter = 20 
+ max # of iterations = 10  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+ SQUAREM = 3  will be used after 1 iterations  with min(alpha) = -2 
+ print level = 2 
+ D in P = 1 
+ inital parameter value 
+param = 
+      name type ncat p1 p2  p3 p4
+item1   Q1    B    2  1  0 0.0 NA
+item2   Q2   B3    2  1  0 0.3 NA
+item3   Q3    G    4  1 -1 0.0  1
+item4   Q4    P    4  1 -1 0.0  1
+
+
+msn = 
+       mu  sigma n  
+group1   0   1   500
+group2   0   1   500
+
+initial 
+lmlhp =  -3629.953
+                                                                                                                              
+ llll  =      1 ,   lmlh  =   -3339.686915 ,   lmlhp  =   -3629.952547 ,   lmlhimpr  =   0.079964 ,   maxadp  =   1.091728 ,  
+                      
+ maxadms  =   0.000000
+                                                                                                                              
+ llll  =      2 ,   lmlh  =   -3250.839893 ,   lmlhp  =   -3339.686915 ,   lmlhimpr  =   0.026603 ,   maxadp  =   0.310147 ,  
+                      
+ maxadms  =   0.457246
+                                                                                                                              
+ llll  =      3 ,   lmlh  =   -3243.736149 ,   lmlhp  =   -3250.839893 ,   lmlhimpr  =   0.002185 ,   maxadp  =   0.121846 ,  
+                      
+ maxadms  =   0.082913
+SQUAREM success                                                                                                      
+ lmlh0  =   -3242.007390 ,   lmlh  =   -3242.007390 ,   alpha  =   -1.285863 ,   maxadp  =   0.176121
+                                                                                                                              
+ llll  =      4 ,   lmlh  =   -3238.991938 ,   lmlhp  =   -3242.007390 ,   lmlhimpr  =   0.000930 ,   maxadp  =   0.061852 ,  
+                      
+ maxadms  =   0.032519
+                                                                                                                              
+ llll  =      5 ,   lmlh  =   -3236.910203 ,   lmlhp  =   -3238.991938 ,   lmlhimpr  =   0.000643 ,   maxadp  =   0.057909 ,  
+                      
+ maxadms  =   0.031679
+SQUAREM success                                                                                                      
+ lmlh0  =   -3235.358787 ,   lmlh  =   -3235.358787 ,   alpha  =   -2.000000 ,   maxadp  =   0.169785
+                                                                                                                              
+ llll  =      6 ,   lmlh  =   -3233.643816 ,   lmlhp  =   -3235.358787 ,   lmlhimpr  =   0.000530 ,   maxadp  =   0.018059 ,  
+                      
+ maxadms  =   0.005988
+                                                                                                                              
+ llll  =      7 ,   lmlh  =   -3232.780377 ,   lmlhp  =   -3233.643816 ,   lmlhimpr  =   0.000267 ,   maxadp  =   0.027900 ,  
+                      
+ maxadms  =   0.025366
+                                                                                                                              
+ llll  =      8 ,   lmlh  =   -3232.074584 ,   lmlhp  =   -3232.780377 ,   lmlhimpr  =   0.000218 ,   maxadp  =   0.026697 ,  
+                      
+ maxadms  =   0.019847
+SQUAREM success                                                                                                      
+ lmlh0  =   -3231.615665 ,   lmlh  =   -3231.615665 ,   alpha  =   -2.000000 ,   maxadp  =   0.078888
+                                                                                                                              
+ llll  =      9 ,   lmlh  =   -3230.895251 ,   lmlhp  =   -3231.615665 ,   lmlhimpr  =   0.000223 ,   maxadp  =   0.007645 ,  
+                      
+ maxadms  =   0.005354
+                                                                                                                              
+ llll  =     10 ,   lmlh  =   -3230.495360 ,   lmlhp  =   -3230.895251 ,   lmlhimpr  =   0.000124 ,   maxadp  =   0.018173 ,  
+                      
+ maxadms  =   0.016843
+
+uIRT: parameter estimation of unidimensional IRT models
+
+ id varaible = none ,  group varaible = group 
+ # of observations = 1000 ,  # of items = 4 
+ # of groups = 2 
+  group1 group2 
+  "G1"   "G2" 
+ percentage of mising data = 0 
+
+ # of theta points = 21  in [ -4 , 4 ] 
+ estimation of theta distribution
+   estmu = 1 ,  estsigma = 1 
+   baseform = 1 
+ total # of parameters to be estimated = 15  ( 13  +  2 ) 
+ max abs value of estimated parameter = 20 
+
+ iteration terminated with 10  iterations
+ max # of iterations in m-steps = 20 / 5  with eps = 0.0001 and nstrict = 9 
+ SQUAREM = 3  will be used after 1 iterations  with min(alpha) = -2 
+    # of successes = 3  out of 5 
+
+ log marginal likelihood maximized = -3230.495 
+
+ max # of iterations = 10  with eps = 0.0000001  and epsd = 0.000001 
+ max # of iterations in m-steps = 20  with eps = 0.0001 and nstrict = 9 
+ print level = 2 
+
+ estimated item parameters (DinP= 1 ) 
+param = 
+      name type ncat        p1         p2         p3       p4
+item1   Q1    B    2 0.9247544 -0.2122641  0.0000000       NA
+item2   Q2   B3    2 1.2765805  0.1865560  0.3490997       NA
+item3   Q3    G    4 1.1076182 -2.1890689 -0.2302893 1.679497
+item4   Q4    P    4 0.6374392 -2.2403225 -0.1208093 2.023476
+
+
+
+ estimated mean and std of theta distribution 
+msn = 
+       mu         sigma      n         
+group1   0.000000   1.000000 500.000000
+group2   0.775937   0.911268 500.000000
