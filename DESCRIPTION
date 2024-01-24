@@ -10,7 +10,7 @@ Imports:
     lazy.tools,
     lazy.mat,
     lazy.accel,
-    R (>= 2.10)
+    R (>= 4.1.0)
 License: GPL-3
 LazyData: TRUE
 Encoding: UTF-8
